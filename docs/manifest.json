@@ -1,7 +1,7 @@
 {
   "data_version": 2,
   "min_app_version": "1.0.0",
-  "spells_db_url": "https://raw.githubusercontent.com/AlissonSantos/tibinho/main/docs/data/spells_v2.db",
+  "spells_db_url": "https://raw.githubusercontent.com/AlissonSantos95/tibinho/main/docs/data/spells_v2.db",
   "checksum_sha256": "4c2d60b6d781a4e8f43473d4a3c8ecf8c7a60c4cff3067ffc10d5223a9fe5aee",
   "changelog": "Adicionados mana/level/descrição"
 }
