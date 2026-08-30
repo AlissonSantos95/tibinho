@@ -41,9 +41,9 @@ Botão de fechamento rápido (✕)
 
 ## 🗺️ Roadmap
 
-- [ ] **Cooldown por spell** — A barra de cooldown abaixo dos ícones da barra flutuante deve refletir o cooldown do spell colocado no atalho, não o cooldown global.
-- [ ] **Cooldown global visual** — Cooldown global de 2s: deixar todos os ícones em cinza enquanto roda, com contador de 2s + milissegundos em cima da imagem (sem tampar, imagem pode ficar cinza).
-- [ ] **Overlay limpo** — Mostrar apenas o ícone da imagem. Sem detalhes, mana, nível ou qualquer outra informação.
+- [x] **Cooldown por spell** — A barra de cooldown abaixo dos ícones da barra flutuante deve refletir o cooldown do spell colocado no atalho, não o cooldown global.
+- [x] **Cooldown global visual** — Cooldown global de 2s: deixar todos os ícones em cinza enquanto roda, com contador de 2s + milissegundos em cima da imagem (sem tampar, imagem pode ficar cinza).
+- [x] **Overlay limpo** — Mostrar apenas o ícone da imagem. Sem detalhes, mana, nível ou qualquer outra informação.
 - [ ] **Menu de configurações** — Separar as configurações em abas:
   - [ ] `Overlay Spells/Icons` — Configurações atuais de atalhos
   - [ ] `Sync Character for Hunts` — Sincronizar personagem para hunts
