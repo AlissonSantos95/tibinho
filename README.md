@@ -44,17 +44,19 @@ Botão de fechamento rápido (✕)
 - [x] **Cooldown por spell** — A barra de cooldown abaixo dos ícones da barra flutuante deve refletir o cooldown do spell colocado no atalho, não o cooldown global.
 - [x] **Cooldown global visual** — Cooldown global de 2s: deixar todos os ícones em cinza enquanto roda, com contador de 2s + milissegundos em cima da imagem (sem tampar, imagem pode ficar cinza).
 - [x] **Overlay limpo** — Mostrar apenas o ícone da imagem. Sem detalhes, mana, nível ou qualquer outra informação.
+- [x] **Botão "Sincronizar"** — Renomear o botão de atualizar ícones para "Sincronizar". Ao clicar, força sincronia de ícones com o GitHub Pages.
+- [x] **Trava de movimentação** — Ao ativar, sumir todos os ícones exceto as habilidades e o cooldown. Opções, fechar e mover desaparecem.
+- [ ] **Atualização de icones de spells e runas
 - [ ] **Menu de configurações** — Separar as configurações em abas:
+- [ ] **Tooltip de detalhes** — Quando "mostrar detalhes" estiver ativo nas configurações, passar o mouse sobre o spell mostra os detalhes.
   - [ ] `Overlay Spells/Icons` — Configurações atuais de atalhos
   - [ ] `Sync Character for Hunts` — Sincronizar personagem para hunts
   - [ ] `Hunts`
     - [ ] Checkbox pré-marcada "Sync with character" — busca hunts apenas para a classe e nível do personagem logado
     - [ ] Campo para digitar nome do personagem — puxa dados do site oficial da Tibia com opção de overlay dos dados da hunt
     - [ ] Filtro de hunt por XP, loot, XP/hr, etc.
-- [ ] **Tooltip de detalhes** — Quando "mostrar detalhes" estiver ativo nas configurações, passar o mouse sobre o spell mostra os detalhes.
 - [ ] **Documentação do código** — Comentar todas as linhas detalhadamente explicando o que cada bloco faz, com exemplos.
-- [ ] **Botão "Sincronizar"** — Renomear o botão de atualizar ícones para "Sincronizar". Ao clicar, força sincronia de ícones com o GitHub Pages.
-- [ ] **Trava de movimentação** — Ao ativar, sumir todos os ícones exceto as habilidades e o cooldown. Opções, fechar e mover desaparecem.
+
 
 V-0.0.2:
 <img width="915" height="399" alt="AnimaçãoMover" src="https://github.com/user-attachments/assets/157ab515-0b5b-4226-be9b-44f52f5b5f28" />
