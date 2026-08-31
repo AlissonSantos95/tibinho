@@ -1,7 +1,7 @@
 {
-  "data_version": 4,
-  "min_app_version": "4.0.0",
-  "spells_db_url": "https://raw.githubusercontent.com/AlissonSantos95/tibinho/main/docs/data/spells_v4.db",
-  "checksum_sha256": "f88a9322182fcc6293c3855cb008d83bfed264da74b846dec76eca0cc74669a0",
+  "data_version": 5,
+  "min_app_version": "5.0.0",
+  "spells_db_url": "https://raw.githubusercontent.com/AlissonSantos95/tibinho/main/docs/data/spells_v5.db",
+  "checksum_sha256": "f033f1cfe7a0a2d47f5c830efde690908a2bcaf79da89546efa02e20f72e6209",
   "changelog": "Adicionada Spells de 2026"
 }
