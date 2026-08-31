@@ -57,7 +57,7 @@ Botão de fechamento rápido (✕)
     - [ ] Filtro de hunt por XP, loot, XP/hr, etc.
 - [ ] **Documentação do código** — Comentar todas as linhas detalhadamente explicando o que cada bloco faz, com exemplos.
 
-- [ ]**Monotoramento com Notificação** - Monitoramento com Notificação char bazzar
+- [ ] **Monotoramento com Notificação** - Monitoramento com Notificação char bazzar
 
 - [ ] ** Mini-MAP expandido**
 
