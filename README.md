@@ -59,7 +59,7 @@ Botão de fechamento rápido (✕)
 
 - [ ] **Monotoramento com Notificação** - Monitoramento com Notificação char bazzar
 
-- [ ] ** Mini-MAP expandido**
+- [ ] **Mini-MAP expandido**
 
 
 V-0.0.2:
