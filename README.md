@@ -1,4 +1,4 @@
-# Tibinho seu amiguinho
+# Tibinho
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/AlissonSantos95/tibinho/blob/master/README.md)
 [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/AlissonSantos95/tibinho/blob/master/README.pt-br.md)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/AlissonSantos95/tibinho/blob/master/README.es.md)
@@ -81,4 +81,5 @@ Floating bar featuring:
 
 
 V-0.0.2:
+
 <img width="915" height="399" alt="AnimaçãoMover" src="https://github.com/user-attachments/assets/157ab515-0b5b-4226-be9b-44f52f5b5f28" />
