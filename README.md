@@ -57,11 +57,15 @@ Floating bar featuring:
 
     [x] Movement Lock — When activated, hide all icons except the abilities and the cooldown. Options, close, and move buttons disappear.
 
-    [ ] Spell and Rune Icon Updates
+    [ ] Spell and Rune Icon Updates - auto update from github acttions
+    
+    [ ] Details Tooltip — When "show details" is active in the settings, hovering over a spell displays its details.
+
+    [ ] Language Menu on startup (will be supported pt-BR, Eng)
 
     [ ] Settings Menu — Separate settings into tabs:
-
-    [ ] Details Tooltip — When "show details" is active in the settings, hovering over a spell displays its details.
+    
+        [ ] Language Menu
 
         [ ] Overlay Spells/Icons — Current shortcut settings
 
@@ -74,8 +78,11 @@ Floating bar featuring:
             [ ] Field to type character name — pulls data from the official Tibia website with an option to overlay hunt data
 
             [ ] Hunt filter by XP, loot, XP/hr, etc.
-
-    [ ] Code Documentation — Comment all lines in detail explaining what each block does, with examples.
+            
+            [ ] Hunt Analyzer by json (compare your actual hunt with the last and have a peak at overall hunt)
+            
+        [ ] Integrated wiki - right click copy on item and a pop-up detailed with a pre-market value on your world from tibiamarket.com
+            [ ] Search on Wiki - CTRL+ALT+SPACE to open a search engine to get info from wiki (**WILL BE PRE-BUILT ONCE A MONTH ALL WIKI INFO FROM GLOBAL WILL NOT DOWNLOAD INFO ON THE SPOT**) showing all detailed                          information needed on a floating window with links to open more details
 
     [ ] Monitoring with Notification — Character Bazaar monitoring with notification
 
