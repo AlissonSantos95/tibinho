@@ -1,65 +1,83 @@
 # Tibinho seu amiguinho
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/AlissonSantos95/tibinho/blob/master/README.md)
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/AlissonSantos95/tibinho/blob/master/README.pt-br.md)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/AlissonSantos95/tibinho/blob/master/README.es.md)
 
-⚔️ Tibia Cooldowns & Atalhos e MAIS — Overlay em Tempo Real
-Overlay flutuante e invisível para Tibia que exibe cooldowns de magias e runas em tempo real, com drag & drop, scraper integrado da TibiaWiki e persistência de dados.
+⚔️ Tibia Cooldowns & Shortcuts and MORE — Real-Time Overlay
+Invisible floating overlay for Tibia that displays spell and rune cooldowns in real-time, featuring drag & drop, an integrated TibiaWiki scraper, and data persistence.
 
-📋 Descrição
-Aplicativo desenvolvido em Python que funciona como overlay transparente sobre o jogo Tibia, permitindo acompanhar visualmente o tempo de recarga (cooldown) das suas magias e runas de forma automatizada e customizável.
-Construído em Python, IA utilizada para entendimento das bibliotecas abaixo e design de UI pois não tenho conhecimento avançado em PYTHON.
+📋 Description
+An application developed in Python that acts as a transparent overlay over the Tibia game client, allowing you to track spell and rune cooldown times in an automated and customizable way.
+Built in Python; AI was used to understand the libraries below and for UI design since I do not have advanced knowledge in PYTHON.
 
-<img width="460" height="199" alt="{3175E61C-A8CB-4946-8CDB-46127461DCD4}" src="https://github.com/user-attachments/assets/d7d7dbcb-3bc6-4165-b88f-1e48c0ab0cc8" />
+✨ Features
+🎯 Invisible Floating Overlay (Chroma Key)
+The interface uses native transparency (-transparentcolor), making the background completely ignored by Windows. Only the icons, progress bars, and descriptions remain visible on top of the game.
+Shortcut: CTRL + SHIFT + ALT + Q — Opens the settings menu
 
-✨ Funcionalidades
-🎯 Overlay Flutuante Invisível (Chroma Key)
-A interface utiliza transparência nativa (-transparentcolor), fazendo com que o fundo seja totalmente ignorado pelo Windows. Apenas os ícones, barras de progresso e descrições ficam visíveis sobrepostos ao jogo.
-**Atalho:** `CTRL + SHIFT + ALT + Q` — Abre o menu de configurações
+🙈 Smart Auto-Hide
+The script monitors the active system window. If Tibia is in focus, the overlay appears; when you Alt+Tab to your browser or Discord, it automatically disappears.
 
-🙈 Auto-Hide Inteligente
-O script monitora a janela ativa do sistema. Se o Tibia estiver em foco, o overlay aparece; ao dar Alt+Tab para o navegador ou Discord, ele desaparece automaticamente.
+🖱️ Dynamic Slot Manager (Drag & Drop)
+Organize spells and potions by dragging them from the category tabs (Knight, Sorcerer, Druid, Paladin, Monk, and Runes) directly into the active slots. Add as many slots as you want with the + Add Slot button.
 
-🖱️ Gerenciador de Slots Dinâmico (Drag & Drop)
-Organize feitiços e poções arrastando-os das abas de categorias (Knight, Sorcerer, Druid, Paladin, Monk e Runas) diretamente para os slots ativos. Adicione quantos slots quiser com o botão + Adicionar Slot.
+🌐 Integrated TibiaWiki Scraper
+With a single click, the program automatically fetches official spell and rune icons, converting them to the optimal format. It also extracts the minimum level, mana cost, and official description, updating automatically with every game update or via forced sync.
 
-🌐 Scraper Integrado da TibiaWiki
-Com um clique, o programa busca automaticamente os ícones oficiais das magias e runas, convertendo-os para o formato ideal. Também extrai Level mínimo, Custo de Mana e Descrição oficial, atualizado a cada update automaticamente ou forçando sync.
-
-💾 Persistência de Dados (JSON)
-Todas as escolhas de slots, atalhos e preferências são salvos em:
+💾 Data Persistence (JSON)
+All slot choices, shortcuts, and preferences are saved to:
 overlay_config.json
-Ao reabrir o programa, tudo estará exatamente como você deixou.
+When you reopen the program, everything will be exactly where you left it.
 
-🔔 Integração com Tray Icon
-O programa roda oculto na barra de notificações com menu de acesso rápido e mantém presença na barra de tarefas do Windows.
+🔔 Tray Icon Integration
+The program runs hidden in the notification tray with a quick-access menu and maintains a presence on the Windows taskbar.
 
-🔒 Modo Travado e Barra de Controle
-Barra flutuante com:
+🔒 Locked Mode and Control Bar
+Floating bar featuring:
 
-Alça de arraste (≡)
-Botão de configurações (⚙)
-Cadeado de segurança (🔓 / 🔒) — trava a posição para evitar cliques acidentais
-Botão de fechamento rápido (✕)
+    Drag handle (≡)
 
-## 🗺️ Roadmap
+    Settings button (⚙)
 
-- [x] **Cooldown por spell** — A barra de cooldown abaixo dos ícones da barra flutuante deve refletir o cooldown do spell colocado no atalho, não o cooldown global.
-- [x] **Cooldown global visual** — Cooldown global de 2s: deixar todos os ícones em cinza enquanto roda, com contador de 2s + milissegundos em cima da imagem (sem tampar, imagem pode ficar cinza).
-- [x] **Overlay limpo** — Mostrar apenas o ícone da imagem. Sem detalhes, mana, nível ou qualquer outra informação.
-- [x] **Botão "Sincronizar"** — Renomear o botão de atualizar ícones para "Sincronizar". Ao clicar, força sincronia de ícones com o GitHub Pages.
-- [x] **Trava de movimentação** — Ao ativar, sumir todos os ícones exceto as habilidades e o cooldown. Opções, fechar e mover desaparecem.
-- [ ] **Atualização de icones de spells e runas
-- [ ] **Menu de configurações** — Separar as configurações em abas:
-- [ ] **Tooltip de detalhes** — Quando "mostrar detalhes" estiver ativo nas configurações, passar o mouse sobre o spell mostra os detalhes.
-  - [ ] `Overlay Spells/Icons` — Configurações atuais de atalhos
-  - [ ] `Sync Character for Hunts` — Sincronizar personagem para hunts
-  - [ ] `Hunts`
-    - [ ] Checkbox pré-marcada "Sync with character" — busca hunts apenas para a classe e nível do personagem logado
-    - [ ] Campo para digitar nome do personagem — puxa dados do site oficial da Tibia com opção de overlay dos dados da hunt
-    - [ ] Filtro de hunt por XP, loot, XP/hr, etc.
-- [ ] **Documentação do código** — Comentar todas as linhas detalhadamente explicando o que cada bloco faz, com exemplos.
+    Security padlock (🔓 / 🔒) — locks position to prevent accidental clicks
 
-- [ ] **Monotoramento com Notificação** - Monitoramento com Notificação char bazzar
+    Quick close button (✕)
 
-- [ ] **Mini-MAP expandido**
+🗺️ Roadmap
+
+    [x] Spell Cooldown — The cooldown bar below the floating bar icons must reflect the cooldown of the specific spell placed in the shortcut, not the global cooldown.
+
+    [x] Visual Global Cooldown — 2s global cooldown: turn all icons gray while active, with a 2s + milliseconds counter displayed on top of the image (without covering it; the image can turn gray).
+
+    [x] Clean Overlay — Show only the image icon. No details, mana, level, or any other information.
+
+    [x] "Sync" Button — Rename the icon update button to "Sync". When clicked, forces icon synchronization with GitHub Pages.
+
+    [x] Movement Lock — When activated, hide all icons except the abilities and the cooldown. Options, close, and move buttons disappear.
+
+    [ ] Spell and Rune Icon Updates
+
+    [ ] Settings Menu — Separate settings into tabs:
+
+    [ ] Details Tooltip — When "show details" is active in the settings, hovering over a spell displays its details.
+
+        [ ] Overlay Spells/Icons — Current shortcut settings
+
+        [ ] Sync Character for Hunts — Synchronize character for hunts
+
+        [ ] Hunts
+
+            [ ] Pre-checked checkbox "Sync with character" — fetches hunts only for the logged-in character's class and level
+
+            [ ] Field to type character name — pulls data from the official Tibia website with an option to overlay hunt data
+
+            [ ] Hunt filter by XP, loot, XP/hr, etc.
+
+    [ ] Code Documentation — Comment all lines in detail explaining what each block does, with examples.
+
+    [ ] Monitoring with Notification — Character Bazaar monitoring with notification
+
+    [ ] Expanded Mini-MAP
 
 
 V-0.0.2:
