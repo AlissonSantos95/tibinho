@@ -1,7 +1,4 @@
 # Tibinho
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/AlissonSantos95/tibinho/blob/master/README.md)
-[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/AlissonSantos95/tibinho/blob/master/README.pt-br.md)
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/AlissonSantos95/tibinho/blob/master/README.es.md)
 
 ⚔️ Tibia Cooldowns & Shortcuts and MORE — Real-Time Overlay
 Invisible floating overlay for Tibia that displays spell and rune cooldowns in real-time, featuring drag & drop, an integrated TibiaWiki scraper, and data persistence.
