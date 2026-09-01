@@ -10,7 +10,10 @@ Invisible floating overlay for Tibia that displays spell and rune cooldowns in r
 An application developed in Python that acts as a transparent overlay over the Tibia game client, allowing you to track spell and rune cooldown times in an automated and customizable way.
 Built in Python; AI was used to understand the libraries below and for UI design since I do not have advanced knowledge in PYTHON.
 
-<img width="460" height="199" alt="image" src="https://github.com/user-attachments/assets/3f35e13d-46d2-43b1-a532-42f06ddabed1" />
+
+<img width="567" height="183" alt="image" src="https://github.com/user-attachments/assets/001f4b7a-ddcc-42dd-8d71-36f25c1060ea" />
+
+
 
 ✨ Features
 🎯 Invisible Floating Overlay (Chroma Key)
