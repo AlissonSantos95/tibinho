@@ -103,4 +103,6 @@ Botão de fechamento rápido (✕)
 
 
 - [ ] **Mini-MAP expandido**
+V-0.0.2:
 
+<img width="915" height="399" alt="AnimaçãoMover" src="https://github.com/user-attachments/assets/157ab515-0b5b-4226-be9b-44f52f5b5f28" />
