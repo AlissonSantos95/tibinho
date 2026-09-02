@@ -51,6 +51,8 @@ Floating bar featuring:
 
     [x] Visual Global Cooldown — 2s global cooldown: turn all icons gray while active, with a 2s + milliseconds counter displayed on top of the image (without covering it; the image will turn gray).
 
+        [ ] Make the icon stay grey and counting the spell cooldown not only the 2 sec GD and remove the botton cooldown bar, while mantaining the 2sec gray and counter on tohers icons.
+
     [x] Clean Overlay — Show only the image icon. No details, mana, level, or any other information.
 
     [x] "Sync" Button — Rename the icon update button to "Sync". When clicked, forces icon synchronization with GitHub Pages.
