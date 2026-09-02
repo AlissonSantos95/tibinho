@@ -65,6 +65,8 @@ Floating bar featuring:
     
     [ ] Details Tooltip — When "show details" is active in the settings, hovering over a spell displays its details.
 
+    [ ] Linux Support
+
     [ ] Settings Menu — Separate settings into tabs:
     
         [ ] Language Menu
