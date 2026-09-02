@@ -49,7 +49,7 @@ Floating bar featuring:
 
     [x] Spell Cooldown — The cooldown bar below the floating bar icons must reflect the cooldown of the specific spell placed in the shortcut, not the global cooldown.
 
-    [x] Visual Global Cooldown — 2s global cooldown: turn all icons gray while active, with a 2s + milliseconds counter displayed on top of the image (without covering it; the image can turn gray).
+    [x] Visual Global Cooldown — 2s global cooldown: turn all icons gray while active, with a 2s + milliseconds counter displayed on top of the image (without covering it; the image will turn gray).
 
     [x] Clean Overlay — Show only the image icon. No details, mana, level, or any other information.
 
@@ -57,11 +57,11 @@ Floating bar featuring:
 
     [x] Movement Lock — When activated, hide all icons except the abilities and the cooldown. Options, close, and move buttons disappear.
 
-    [ ] Spell and Rune Icon Updates - auto update from github acttions
+    [x] Spell and Rune Icon Updates - auto update from github acttions
+
+    [x] Language Menu on startup (will be supported pt-BR, Eng, Esp)
     
     [ ] Details Tooltip — When "show details" is active in the settings, hovering over a spell displays its details.
-
-    [ ] Language Menu on startup (will be supported pt-BR, Eng)
 
     [ ] Settings Menu — Separate settings into tabs:
     
@@ -81,8 +81,11 @@ Floating bar featuring:
             
             [ ] Hunt Analyzer by json (compare your actual hunt with the last and have a peak at overall hunt)
             
-        [ ] Integrated wiki - right click copy on item and a pop-up detailed with a pre-market value on your world from tibiamarket.com
-            [ ] Search on Wiki - CTRL+ALT+SPACE to open a search engine to get info from wiki (**WILL BE PRE-BUILT ONCE A MONTH ALL WIKI INFO FROM GLOBAL WILL NOT DOWNLOAD INFO ON THE SPOT**) showing all detailed                          information needed on a floating window with links to open more details
+    [ ] Integrated wiki - right click copy on item and a pop-up detailed with a pre-market value on your world from tibiamarket.com
+      
+           [ ] Search on Wiki - CTRL+ALT+SPACE to open a search engine to get info from wiki (**WILL BE PRE-BUILT ONCE A MONTH ALL WIKI INFO FROM GLOBAL WILL NOT DOWNLOAD INFO ON THE SPOT**) showing all detailed                          information needed on a floating window with links to open more details
+        
+           [ ] Wiki info language - Wiki will show the info on the respective language chossed or marked on configuration.
 
     [ ] Monitoring with Notification — Character Bazaar monitoring with notification
 
