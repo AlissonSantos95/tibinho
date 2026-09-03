@@ -3,6 +3,17 @@
 ⚔️ Tibia Cooldowns & Shortcuts and MORE — Real-Time Overlay
 Invisible floating overlay for Tibia that displays spell and rune cooldowns in real-time, featuring drag & drop, an integrated TibiaWiki scraper, and data persistence.
 
+
+**Donate to help with the project or send TC to Phorz if you wish
+[![Donate with PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?business=4XY2W8VTUVSAJ&no_recurring=0&item_name=Donate+for+Tibinho+project&currency_code=BRL)
+
+
+Note for international donors: The currency is set to BRL (Brazilian Reais) due to local regulations, but PayPal will automatically convert the amount from your local currency at checkout. For reference, 5 BRL is roughly 1 USD, the money will be used to easy the development.
+
+
+
+
+
 📋 Description
 An application developed in Python that acts as a transparent overlay over the Tibia game client, allowing you to track spell and rune cooldown times in an automated and customizable way.
 Built in Python; AI was used to understand the libraries below and for UI design since I do not have advanced knowledge in PYTHON.
@@ -54,6 +65,8 @@ Floating bar featuring:
         [ ] Make the icon stay grey and counting the spell cooldown not only the 2 sec GD and remove the botton cooldown bar, while mantaining the 2sec gray and counter on tohers icons.
         
         [ ] Make resizeble icons so can make bigger ones
+
+        [ ] OCR with obs websocket
 
     [x] Clean Overlay — Show only the image icon. No details, mana, level, or any other information.
 
