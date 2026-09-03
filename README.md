@@ -5,6 +5,7 @@ Invisible floating overlay for Tibia that displays spell and rune cooldowns in r
 
 
 **Donate to help with the project or send TC to Phorz if you wish
+
 [![Donate with PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?business=4XY2W8VTUVSAJ&no_recurring=0&item_name=Donate+for+Tibinho+project&currency_code=BRL)
 
 
