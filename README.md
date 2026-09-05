@@ -79,9 +79,9 @@ Floating bar featuring:
 
     [x] Language Menu on startup (will be supported pt-BR, Eng, Esp)
 
-        [ ] Wiki Scrap on other languages too.
+        [x] Wiki Scrap on other languages too.(en and pt-br, esn i did not found an wiki to scrap)
     
-    [ ] Details Tooltip — When "show details" is active in the settings, hovering over a spell displays its details.
+    [x] Details Tooltip — When "show details" is active in the settings, hovering over a spell displays its details.
 
     [ ] Linux Support
 
