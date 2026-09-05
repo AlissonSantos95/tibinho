@@ -65,9 +65,9 @@ Floating bar featuring:
 
         [ ] Make the icon stay grey and counting the spell cooldown not only the 2 sec GD and remove the botton cooldown bar, while mantaining the 2sec gray and counter on tohers icons.
         
-        [ ] Make resizeble icons so can make bigger ones
-
-        [ ] OCR with obs websocket
+        [x] Make resizeble icons so can make bigger ones
+    
+        [x] OCR with DW WINDOW for mirroring
 
     [x] Clean Overlay — Show only the image icon. No details, mana, level, or any other information.
 
@@ -78,6 +78,8 @@ Floating bar featuring:
     [x] Spell and Rune Icon Updates - auto update from github acttions
 
     [x] Language Menu on startup (will be supported pt-BR, Eng, Esp)
+
+        [ ] Wiki Scrap on other languages too.
     
     [ ] Details Tooltip — When "show details" is active in the settings, hovering over a spell displays its details.
 
