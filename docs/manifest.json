@@ -1,7 +1,7 @@
 {
-  "data_version": 7,
+  "data_version": 8,
   "min_app_version": "1.0.0",
-  "spells_db_url": "https://raw.githubusercontent.com/AlissonSantos95/tibinho/main/docs/data/spells_v7.db",
-  "checksum_sha256": "970da63247112df3dedae771cf3868f18ba7a1326983a6b1d39cb8c5738efada",
-  "changelog": "Atualização automática (v0 -> v7)"
+  "spells_db_url": "https://raw.githubusercontent.com/AlissonSantos95/tibinho/main/docs/data/spells_v8.db",
+  "checksum_sha256": "233d8ebff346c013302d50ef04bc9f6ac9aee11768ff2466761156712c1992e1",
+  "changelog": "montlhy update (33975197143)"
 }
