@@ -63,7 +63,7 @@ Floating bar featuring:
 
     [x] Visual Global Cooldown — 2s global cooldown: turn all icons gray while active, with a 2s + milliseconds counter displayed on top of the image (without covering it; the image will turn gray).
 
-        [ ] Make the icon stay grey and counting the spell cooldown not only the 2 sec GD and remove the botton cooldown bar, while mantaining the 2sec gray and counter on tohers icons.
+        [x] Make the icon stay grey and counting the spell cooldown not only the 2 sec GD and remove the botton cooldown bar, while mantaining the 2sec gray and counter on tohers icons.
         
         [x] Make resizeble icons so can make bigger ones
     
@@ -85,35 +85,52 @@ Floating bar featuring:
 
     [ ] Linux Support
 
-    [ ] Settings Menu — Separate settings into tabs:
+    [x] Settings Menu — Separate settings into tabs:
     
-        [ ] Language Menu
+        [x] Language Menu
 
-        [ ] Overlay Spells/Icons — Current shortcut settings
+        [x] Overlay Spells/Icons — Current shortcut settings
 
         [ ] Sync Character for Hunts — Synchronize character for hunts
 
         [ ] Hunts
 
-            [ ] Pre-checked checkbox "Sync with character" — fetches hunts only for the logged-in character's class and level
+           [ ] Pre-checked checkbox "Sync with character" — fetches hunts only for the logged-in character's class and level
 
-            [ ] Field to type character name — pulls data from the official Tibia website with an option to overlay hunt data
+           [ ] Field to type character name — pulls data from the official Tibia website with an option to overlay hunt data
 
-            [ ] Hunt filter by XP, loot, XP/hr, etc.
+           [ ] Hunt filter by XP, loot, XP/hr, etc.
             
-            [ ] Hunt Analyzer by json (compare your actual hunt with the last and have a peak at overall hunt)
+           [ ] Hunt Analyzer by json (compare your actual hunt with the last and have a peak at overall hunt)
             
-    [ ] Integrated wiki - right click copy on item and a pop-up detailed with a pre-market value on your world from tibiamarket.com
+           [ ] Integrated wiki - right click copy on item and a pop-up detailed with a pre-market value on your world from tibiamarket.com
       
-           [ ] Search on Wiki - CTRL+ALT+SPACE to open a search engine to get info from wiki (**WILL BE PRE-BUILT ONCE A MONTH ALL WIKI INFO FROM GLOBAL WILL NOT DOWNLOAD INFO ON THE SPOT**) showing all detailed                          information needed on a floating window with links to open more details
+           [x] Search on Wiki - CTRL+ALT+SPACE to open a search engine to get info from wiki (not pre built yet) showing all detailed  information needed on a floating window with links to open more details
         
-           [ ] Wiki info language - Wiki will show the info on the respective language chossed or marked on configuration.
+           [x] Wiki info language - Wiki will show the info on the respective language chossed or marked on configuration.
+
+           [ ] Pre-Built wiki pages, ( takes longer to build)
 
     [ ] Monitoring with Notification — Character Bazaar monitoring with notification
 
     [ ] Expanded Mini-MAP
 
+V-0.0.9 - WIKI:
 
+<img width="1587" height="787" alt="wiki" src="https://github.com/user-attachments/assets/333328a6-6d7b-48fe-985b-f58df9ff76e9" />
+
+V-0.0.9 - FREE MIRRORING (it is black becouse the Battleeye dosent let us print/record the tibia window):
+
+<img width="1587" height="787" alt="mirroring" src="https://github.com/user-attachments/assets/6e0c158b-23c6-458d-bc85-e646623d867a" />
+
+V-0.0.9 - LANGUAGE SUPPORT/OVERLAY INFO:
+
+<img width="1587" height="787" alt="overlaymouse" src="https://github.com/user-attachments/assets/7e01fdf0-a78c-4ff1-8798-275a08337e59" />
+
+V-0.0.9 - LOCK movable icons:
+
+<img width="1587" height="787" alt="trava" src="https://github.com/user-attachments/assets/65ee4a56-cf19-4ef9-b8a5-08acec98db80" />
+    
 V-0.0.2:
 
 <img width="915" height="399" alt="AnimaçãoMover" src="https://github.com/user-attachments/assets/157ab515-0b5b-4226-be9b-44f52f5b5f28" />
